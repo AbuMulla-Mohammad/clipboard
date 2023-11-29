@@ -1,0 +1,71 @@
+/* start global rules */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+.clr{
+    clear: both;
+}
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+body{
+    font-family: "Bai Jamjuree",sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto 0;
+
+}
+
+/* end */
+/* start master section */
+.master-section{
+    background-image: url(../images/bg-header-desktop.png);
+    height: 80vh;
+    background-size: cover;
+    text-align: center;
+    padding-top: 1px;
+}
+.master-section .logo{
+    margin: 40px auto;
+}
+.master-section .logo img{
+    margin: 0 auto 0;
+}
+.master-section .content h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+.master-section .content p{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+}
+.master-section form input{
+    width: 180px;
+    height: 50px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin: 40px 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.master-section form .ios{
+    background-color: var(--Strong-Cyan);
+}
+.master-section form .mac{
+    background-color: var(--Light-Blue);
+}
+/* end master section */

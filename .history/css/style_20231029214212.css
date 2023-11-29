@@ -1,0 +1,30 @@
+/* start global rules */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+body{
+    font-family: "Bai Jamjuree",sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto 0;
+}
+
+/* end */
+/* start master section */
+.master-section{
+    background-image: url(../images/bg-header-desktop.png);
+    height: 80vh;
+    background-size: cover;
+}
+
+/* end master section */

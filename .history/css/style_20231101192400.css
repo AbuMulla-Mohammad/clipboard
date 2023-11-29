@@ -1,0 +1,198 @@
+/* start global rules */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+.clr{
+    clear: both;
+}
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+body{
+    font-family: "Bai Jamjuree",sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto 0;
+
+}
+.main-heading{
+    padding: 40px 0;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.main-heading h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 600;
+}
+.main-heading p{
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 20px;
+}
+/* end */
+/* start master section */
+.master-section{
+    background-image: url(../images/bg-header-desktop.png);
+    height: 80vh;
+    background-size: cover;
+    text-align: center;
+    padding-top: 1px;
+}
+.master-section .logo{
+    margin: 40px auto;
+}
+.master-section .logo img{
+    margin: 0 auto 0;
+}
+.master-section .content h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 40px;
+}
+.master-section .content p{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+}
+.master-section form input{
+    width: 180px;
+    height: 50px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin: 40px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Bai Jamjuree",sans-serif;
+}
+.master-section form .ios{
+    background-color: var(--Strong-Cyan);
+}
+.master-section form .mac{
+    background-color: var(--Light-Blue);
+}
+/* end master section */
+/* start track section */
+.track{
+
+}
+.track img{
+    float: left;
+    margin:0 120px 10px -30px;
+    
+}
+.track .items{
+    width: 20%;
+    overflow: hidden;
+}
+.track .items .item{
+    margin: 75px 0;
+    /* background-color: red; */
+}
+.track .items .item h3{
+    text-transform: capitalize;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 20px;
+}
+.track .items .item p{
+    color: var(--Grayish-Blue);
+}
+/* end track secton */
+
+/* start access  */
+    .image{
+        width: fit-content;
+        margin: auto;
+    }
+/* end access */
+
+/* start workflow */
+.workflow{
+
+}
+.workflow .workflow-items{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.workflow .workflow-items .item{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 20px;
+
+}
+.workflow .workflow-items .item img{
+    margin: auto;
+    margin-bottom: 35px;
+}
+.workflow .workflow-items .item h3{
+    margin-bottom: 20px;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 25px;
+    font-weight: 600;
+}
+.workflow .workflow-items .item p{
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+}
+.workflow .Companies{
+    overflow: hidden;
+}
+.workflow .Companies .companie{
+    float: left;
+    width: 20%;
+    padding: 20px;  
+}
+.workflow .Companies .companie img{
+    width: 60%;
+    margin: auto;
+}
+/* end workflow */
+
+/* start download */
+
+.download
+{
+
+}
+.download form{
+    height: 50px;
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+}
+.download form input{
+    width: 180px;
+    height: 50px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin: 40px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Bai Jamjuree",sans-serif;
+    
+}
+.download form .ios{
+    background-color: var(--Strong-Cyan);
+}
+.download form .mac{
+    background-color: var(--Light-Blue);
+}
+/* end downlaod */
